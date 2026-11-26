@@ -1,6 +1,6 @@
 # REDUCEAM
 
-Kompressor is a free, fast, optional login files editing toolbox on the web + a versioned HTTP API for developers.
+ReduceAm is a free, fast, optional login files editing toolbox on the web + a versioned HTTP API for developers.
 
 * Compress images to a custom quality level.
 - Convert between formats (png -> jpg, mp4 -> mkv, pdf -> docx)
@@ -21,16 +21,16 @@ Using existing knowledge on middleware to successfully redirect to the right sub
 #### DOCUMENTATION (README, ARCHITECHTURE & API-DOC)
 * [x] draft our readmes
 * [x] Write Out bried SOC scope in docs/soc/
-* [ ] Create Helper class files in UTILITY for holding together all functions + init containing notes
+* [x] Create Helper class files in UTILITY for holding together all functions + init containing notes
 * [ ] 
 
 #### MAJOR FILE IMPLEMENTATION
 
 ##### 1. IMAGES CORE FEATURES
 a file inside services called `IMAGES.PY` holding together all image editing tools including:
+* [ ] **Covert:** convert one image from .old -> .new
 * [ ] **Compress-pcnt:** reduce image size using `Percentage`.
 * [ ] **Compress-auto:** reduce image size to the smallest bytes while still keeping image clear.
-* [ ] **Covert:** convert one image from .old -> .new
 * [ ] **Meta:** return all meta on an image
 * [ ] **Compress-auto**: automatically compress images to its minimum byte saving size while keeping the quality of the image itself
 * [ ] **encrypt_data** : Put custom data in images thats not dectectable as its been hased using the project [Hasing Mechanism](#Hashing-Mechanish)
